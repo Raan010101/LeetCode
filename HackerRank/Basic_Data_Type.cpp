@@ -3,10 +3,10 @@
 using namespace std; 
 
  int main ()
- {
+ {    
     int i; 
     long h ; 
-    double j; 
+    double j;    
     char c; 
     float f; 
 printf("Please enter 5 different types of data:\n"); 
@@ -22,3 +22,4 @@ printf("Please enter 5 different types of data:\n");
 
     return 0;
 }
+     
