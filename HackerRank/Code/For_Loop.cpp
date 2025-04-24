@@ -43,7 +43,7 @@ int main () {
         {
       
             cout << "odd\n"<< endl; 
-        }
+        } 
     }
     
     return 0; 
