@@ -7,23 +7,24 @@ int main() {
 
     char a;
     char b; 
-    string g; 
+    string first; 
+    string second; 
 
     
-cout << "Enter two characters: ";
-cin >> a >> b;
-
-       
-g = a + b ; 
-
-// cout << lenght.a << length.b ; 
-
-// cout << ""
-          
+cout << "Enter two strings: ";
+cin >> first >> second;
 
 
-  
-//     return 0; 
 
-    
+cout<<first.length()<<" "<<second.length()<< endl;
+
+cout<< first + second <<endl ; 
+
+
+swap (first[0], second[0]);  
+ 
+cout<< first << " " << second << endl;
+
+
+return 0;
 }
